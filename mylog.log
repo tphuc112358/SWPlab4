@@ -269,3 +269,22 @@
   269   \__/      \__/
   270  gitgg
   271  history>mylog.log
+  272  git init
+  273  git remote add origin https://github.com/tphuc112358/SWPlab4.git
+  274  git add .
+  275  git remote -v
+  276  git commit -m 'First Commit'
+  277  git push origin master
+  278  git branch b1
+  279  git add .
+  280  git commit -m 'longer cat'
+  281  git checkout b1
+  282  git add .
+  283  git commit -m 'shortcatears'
+  284  git push origin b1
+  285  git checkout master
+  286  git merge b1 -m 'merge'
+  287  git add .
+  288  git commit -m 'final cat'
+  289  git push origin master
+  290  history>mylog.log 
